@@ -1,5 +1,19 @@
 body {
-	background-color: grey;
+	background-image : url(Images/electronic_purple.jpg);
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: rgb(180, 0, 50);
+}
+
+@keyframes changeColor {
+	0% {background-color : grey;}
+	50% {background-color : #4f4f4e;}
+	100% {background-color: grey;}
 }
 
 .center {
@@ -10,29 +24,62 @@ body {
 
 #logo {
 	background-color: black;
-	padding-bottom: 20px;
+	padding-bottom: 35px;
+}
+
+#image:hover {
+	opacity : 85%;
 }
 
 #links {
+	font-size: 20px;
 	text-align: center;
 	color: rgb(255, 0, 102);
 	font-family: Trebuchet MS;
 }
 
 #title {
-	color: black;
+	color: white;
 	font-family: Trebuchet MS;
 	text-align: center;
+	padding-top: 15px;
 }
 
 #home {
 	display: inline-block;
+	margin-right: 10px;
 }
 
 #about {
 	display: inline-block;
+	margin-right: 10px;
 }
 
 #github {
 	display: inline-block;
+}
+
+#main {
+	background-color: black;
+	margin: 20px;
+	padding-bottom: 100%;
+}
+
+ul {
+	color: white;
+	font-size: 18px;
+	font-family: Trebuchet MS;
+	padding-left: 30px;
+}
+
+#codeImage {
+	padding: 10px;
+	float: right;
+}
+
+ol {
+	color: white;
+	font-size: 18px;
+	font-family: Trebuchet MS;
+	padding-left: 30px;
 }
