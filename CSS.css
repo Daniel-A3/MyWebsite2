@@ -1,5 +1,7 @@
 body {
+	background-color: black;
 	background-image : url(Images/electronic_purple.jpg);
+	animation: changeColor 4s infinite;
 }
 
 a {
@@ -11,9 +13,9 @@ a:hover {
 }
 
 @keyframes changeColor {
-	0% {background-color : grey;}
-	50% {background-color : #4f4f4e;}
-	100% {background-color: grey;}
+	0% {opacity: 100%;}
+	50% {opacity: 85%;}
+	100% {opacity: 100%;}
 }
 
 .center {
